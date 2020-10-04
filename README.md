@@ -60,9 +60,31 @@ TADA!!!
 <img src="./aset/komentar-issue.png">
 
 ## Mulai Beraksi
+Alangkah baiknya sebelum mulai beraksi Anda bisa membuat _branch_ baru dari _branch_ `master`.
+
+```
+git checkout -b <NAMA BRANCH>
+```
+```
+git checkout -b js-question-translate-13
+```
 
 ## Membuat sebuah Pull Request (PR)
+Anda dapat menuju halaman repositori yang telah Anda fork.
+```
+https://github.com/<USERNAME ANDA>/cara-kontribusi-open-source
+```
+<img src="./aset/tombol-PR.png">
+Anda bisa buat PR disini
+<img src="./aset/do-pr.png">
 
 ## Mereview PR Kontributor lainnya
 
+Anda dapat memilih Pull Request yang memiliki status `OPEN` dan melakukan review disana.
+
+Hamalan untuk melakukan _code review_
+<img src="./aset/contoh-review.png">
+
 ## Selamat Mencari Repo Lainnya
+
+Daftar repositori untuk kontribusi (Hacktoberfest/non-hacktoberfest):
