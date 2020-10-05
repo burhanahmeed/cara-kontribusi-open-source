@@ -50,6 +50,9 @@ atau
 git remote add upstream https://github.com/burhanahmeed/cara-kontribusi-open-source
 ```
 
+__Flow dari git repositori__
+<img src="./aset/flow.png">
+
 TADA!!!
 
 
