@@ -59,7 +59,7 @@ TADA!!!
 
 
 ## Etika Berkontribusi
-
+[Buka disini](https://docs.google.com/presentation/d/1oyysubuOgsK3361W00eKLowSH3JWSfcq2j_zqTHHCCU/edit#slide=id.g9e4704e8d8_0_119)
 
 ## Buat Issue atau berkomentar di suatu Issue
 <img height="90" src="./aset/cari-issue.png"> 
@@ -75,22 +75,23 @@ git checkout -b <NAMA BRANCH>
 git checkout -b js-question-translate-13
 ```
 
-## Membuat sebuah Pull Request (PR)
+## Membuat sebuah Pull Requests (PR)
 Anda dapat menuju halaman repositori yang telah Anda fork.
 ```
 https://github.com/<USERNAME ANDA>/cara-kontribusi-open-source
 ```
 
-Menuju ke tab `Pull request` dan `create pull request`
+Menuju ke tab `Pull requests` dan `create pull requests`
 <img src="./aset/tombol-PR.png">
 
 Anda bisa buat PR disini
 <img src="./aset/do-pr.png">
-_Base repository_ merupakan repositori tujuan yang akan Anda buat _pull request_. Sedangkan _head repository_ merupakan repositori hasil _fork_ yang ada di daftar repositori Anda.
+_Base repository_ merupakan repositori tujuan yang akan Anda buat _pull requests_. Sedangkan _head repository_ merupakan repositori hasil _fork_ yang ada di daftar repositori Anda.
 
 ## Mereview PR Kontributor lainnya
 
-Anda dapat memilih Pull Request yang memiliki status `OPEN` dan melakukan review disana.
+Anda dapat memilih Pull Requests yang memiliki status `OPEN` dan melakukan review disana.
+<img src="./aset/open-pr.png">
 
 Hamalan untuk melakukan _code review_
 <img src="./aset/contoh-review.png">
