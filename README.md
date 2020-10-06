@@ -60,6 +60,7 @@ TADA!!!
 
 ## Etika Berkontribusi
 
+
 ## Buat Issue atau berkomentar di suatu Issue
 <img height="90" src="./aset/cari-issue.png"> 
 <img src="./aset/komentar-issue.png">
@@ -79,9 +80,13 @@ Anda dapat menuju halaman repositori yang telah Anda fork.
 ```
 https://github.com/<USERNAME ANDA>/cara-kontribusi-open-source
 ```
+
+Menuju ke tab `Pull request` dan `create pull request`
 <img src="./aset/tombol-PR.png">
+
 Anda bisa buat PR disini
 <img src="./aset/do-pr.png">
+_Base repository_ merupakan repositori tujuan yang akan Anda buat _pull request_. Sedangkan _head repository_ merupakan repositori hasil _fork_ yang ada di daftar repositori Anda.
 
 ## Mereview PR Kontributor lainnya
 
