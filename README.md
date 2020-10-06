@@ -6,13 +6,15 @@ Silahkan mendaftar ke situs [Hacktoberfest](https://hacktoberfest.digitalocean.c
 Aturan terbaru Hacktoberfest Per tanggal __3 Oktober 2020__
 
 ```
-PRs count if:
-Submitted in a repo with the hacktoberfest topic AND
-during the month of October AND (
-  The PR is merged OR
-  The PR is labelled as hacktoberfest-accepted by a maintainer OR
-  The PR has been approved
-) 
+  PRs count if:
+  Submitted during the month of October AND (
+    The PR is labelled as hacktoberfest-accepted by a maintainer OR
+    Submitted in a repo with the hacktoberfest topic AND (
+      The PR is merged OR
+      The PR has been approved
+    )
+  ) 
+ 
 ```
 
 ## _Forking_ repositori
