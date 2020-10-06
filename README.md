@@ -93,3 +93,12 @@ Hamalan untuk melakukan _code review_
 ## Selamat Mencari Repo Lainnya
 
 Daftar repositori untuk kontribusi (Hacktoberfest/non-hacktoberfest):
+- TypeScript - https://github.com/microsoft/TypeScript-Website/issues/938
+- Nuxt.js - https://github.com/nuxt/nuxtjs.org/issues/549
+- React - https://github.com/reactjs/id.reactjs.org
+- Svelte - https://github.com/svelteid/svelte3-translation-id
+- Javascript.info - https://github.com/javascript-tutorial/id.javascript.info
+- Emojipedia - https://github.com/RishabhDevbanshi/Hacktoberfest-2020-Emojipedia/issues
+- login-page-css - https://github.com/mazipan/login-page-css
+
+Dan banyak lagi!
