@@ -96,6 +96,25 @@ Anda dapat memilih Pull Requests yang memiliki status `OPEN` dan melakukan revie
 Hamalan untuk melakukan _code review_
 <img src="./aset/contoh-review.png">
 
+## Finalisasi
+
+Setelah pull requests Anda berhasil ter-merge, maka Anda dapat menghapus branch pengerjaan Anda tadi.
+
+```
+git checkout master
+```
+```
+git branch -d <NAMA BRANCH>
+git push origin --delete <NAMA BRANCH>
+```
+Lalu Anda perlu menyamakan branch `master` Anda yang sekarang dengan branch `master` yang ada di repositori induk.
+
+```
+git pull upstream master
+```
+
+Lalu ulangi lagi ke [step](#buat-issue-atau-berkomentar-di-suatu-Issue) bila ingin berkontribusi lagi.
+
 ## Selamat Mencari Repo Lainnya
 
 Daftar repositori untuk kontribusi (Hacktoberfest/non-hacktoberfest):
@@ -106,5 +125,6 @@ Daftar repositori untuk kontribusi (Hacktoberfest/non-hacktoberfest):
 - Javascript.info - https://github.com/javascript-tutorial/id.javascript.info
 - Emojipedia - https://github.com/RishabhDevbanshi/Hacktoberfest-2020-Emojipedia/issues
 - login-page-css - https://github.com/mazipan/login-page-css
+- bahasa-pemrograman - https://github.com/pasuruandev/bahasa-pemrograman
 
 Dan banyak lagi!
