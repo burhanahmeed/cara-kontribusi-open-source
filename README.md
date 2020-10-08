@@ -88,6 +88,13 @@ Anda bisa buat PR disini
 <img src="./aset/do-pr.png">
 _Base repository_ merupakan repositori tujuan yang akan Anda buat _pull requests_. Sedangkan _head repository_ merupakan repositori hasil _fork_ yang ada di daftar repositori Anda.
 
+Jangan lupa untuk me-_mention_ issue yang berhubungan yang sedang Anda kerjakan bila Anda membuat PR berdasarkan _issue_.
+
+__untuk menyebut issue:__
+```
+#{nomor issue}
+```
+
 ## Mereview PR Kontributor lainnya
 
 Anda dapat memilih Pull Requests yang memiliki status `OPEN` dan melakukan review disana.
@@ -113,7 +120,7 @@ Lalu Anda perlu menyamakan branch `master` Anda yang sekarang dengan branch `mas
 git pull upstream master
 ```
 
-Lalu ulangi lagi ke [step](#buat-issue-atau-berkomentar-di-suatu-Issue) bila ingin berkontribusi lagi.
+Lalu ulangi lagi ke [step ini](#buat-issue-atau-berkomentar-di-suatu-Issue) bila ingin berkontribusi lagi.
 
 ## Selamat Mencari Repo Lainnya
 
