@@ -96,9 +96,9 @@ for (let i = 0; i < 3; i++) {
 
 #### Jawaban: C
 
-Because of the event queue in JavaScript, the `setTimeout` callback function is called _after_ the loop has been executed. Since the variable `i` in the first loop was declared using the `var` keyword, this value was global. During the loop, we incremented the value of `i` by `1` each time, using the unary operator `++`. By the time the `setTimeout` callback function was invoked, `i` was equal to `3` in the first example.
+Dikarenakan _queue event_ pada Javascript, fungsi _callback_ `setTimeout` dipanggil _setelah_ perulangan selesai dieksekusi. Dikarenakan variabel 1 pada perulangan pertama dideklarasikan menggunakan kata kunci `var`, maka nilai ini menjadi global. Saat perulangan, kita menambahkan nilai 1 ke variable `i` menggunakan operator _unary_ `++`. Saat fungsi _callbak_ dipanggil, `i` sama dengan `3` pada contoh pertama.
 
-In the second loop, the variable `i` was declared using the `let` keyword: variables declared with the `let` (and `const`) keyword are block-scoped (a block is anything between `{ }`). During each iteration, `i` will have a new value, and each value is scoped inside the loop.
+Pada perulangan kedua, variabel i dideklarasikan menggunakan kata kunci `let`: variabel yang dideklarasikan menggunakan kata kunci `let` (dan `const`) akan menjadi _block-scoped_ (sebuah blok merupakan apa saja diantara simbol `{}`). Selama perulangan berlangsung, `i` akan memiliki nilai baru dan tiap nilai memiliki scoped di dalam perulangan.
 
 </p>
 </details>
