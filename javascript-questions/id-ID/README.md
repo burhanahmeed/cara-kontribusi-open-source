@@ -273,24 +273,24 @@ However, when we use the `===` operator, both value _and_ type should be the sam
 ###### 8. Apa yang akan tampil?
 
 ```javascript
-class Chameleon {
+class Bunglon {
   static colorChange(newColor) {
     this.newColor = newColor;
     return this.newColor;
   }
 
-  constructor({ newColor = 'green' } = {}) {
+  constructor({ newColor = 'hijau' } = {}) {
     this.newColor = newColor;
   }
 }
 
-const freddie = new Chameleon({ newColor: 'purple' });
-console.log(freddie.colorChange('orange'));
+const freddie = new Bunglon({ newColor: 'ungu' });
+console.log(freddie.colorChange('oranye'));
 ```
 
-- A: `orange`
-- B: `purple`
-- C: `green`
+- A: `oranye`
+- B: `ungu`
+- C: `hijau`
 - D: `TypeError`
 
 <details><summary><b>Jawaban</b></summary>
@@ -298,7 +298,9 @@ console.log(freddie.colorChange('orange'));
 
 #### Jawaban: D
 
-The `colorChange` function is static. Static methods are designed to live only on the constructor in which they are created, and cannot be passed down to any children. Since `freddie` is a child, the function is not passed down, and not available on the `freddie` instance: a `TypeError` is thrown.
+Fungsi `colorChange` ini statis. Metode Statik didesain untuk berlangsung hanya pada konstruktor yang mana telah dibuat, dan tidak bisa diturunkan ke anaknya. Dikarenakan `freddie` itu anak, fungsinya tidak bisa diwariskan, dan tidak tersedia pada `freddie` contoh: sebuah `TypeError` akan dimunculkan.
+
+ <!-- Static methods are designed to live only on the constructor in which they are created, and cannot be passed down to any children. Since `freddie` is a child, the function is not passed down, and not available on the `freddie` instance: a `TypeError` is thrown. -->
 
 </p>
 </details>
