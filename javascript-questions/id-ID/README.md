@@ -858,7 +858,7 @@ name.giveLydiaPizza();
 
 #### Jawaban: A
 
-`String` adalah konstruktor bawaan, dimana kita dapat menambahkan propertinya. Saya baru saja menambahkan sebuah metode ke prototipe `String`. String primitif secara otomatis diubah menjadi objek string, yang dihasilkan oleh fungsi prototipe string. Jadi, semua string (objek string) memiliki akses ke metode itu!
+_`String`_ adalah konstruktor bawaan, dimana kita dapat menambahkan propertinya. Saya baru saja menambahkan sebuah metode ke prototipe _`String`_. _String_ primitif secara otomatis diubah menjadi objek _string_, yang dihasilkan oleh fungsi prototipe _string_. Jadi, semua _string_ (objek _string_) memiliki akses ke metode itu!
 
 </p>
 </details>
