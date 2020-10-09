@@ -132,9 +132,9 @@ console.log(shape.perimeter());
 
 Perhatikan bahwa nilai dari _diameter_ adalah _regular function_, sedangkan nilai dari _perimeter_ merupakan _arrow function_.
 
-Dengan _arrow functions_, kata kunci _this_ mengacu pada cakupan sekitarnya saat ini, tidak seperti _regular functions!_ ni berarti bahwa ketika kita memanggil _perimeter_,  itu tidak mengacu pada objek bentuk, tetapi pada lingkup sekitarnya (misalnya jendela).
+Dengan _arrow functions_, kata kunci _this_ mengacu pada cakupan sekitarnya saat ini, tidak seperti _regular functions!_ ini berarti bahwa ketika kita memanggil _perimeter_,  itu tidak mengacu pada objek bentuk, tetapi pada lingkup sekitarnya (misalnya jendela).
 
-Tidak ada nilai _radius_ pada objek itu, yang mengembalikan `undefined`.
+Tidak ada nilai _radius_ pada objek itu, yang mengembalikan _undefined_.
 
 </p>
 </details>
