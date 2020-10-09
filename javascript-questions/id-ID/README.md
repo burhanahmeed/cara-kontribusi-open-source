@@ -259,11 +259,11 @@ console.log(b === c);
 
 #### Jawaban: C
 
-`new Number()` is a built-in function constructor. Although it looks like a number, it's not really a number: it has a bunch of extra features and is an object.
+`new Number()` merupakan sebuah fungsi konstruktor bawaan. Meskipun terlihat seperti number, sebenarnya ini bukan number: ia memiliki banyak fitur tambahan dan merupakan sebuah objek.
 
-When we use the `==` operator, it only checks whether it has the same _value_. They both have the value of `3`, so it returns `true`.
+Saat kita menggunakan operator `==`, ia hanya akan memeriksa apakah ia memiliki _value_ yang sama. Keduanya memiliki nilai `3`, sehingga mengembalikan `true`.
 
-However, when we use the `===` operator, both value _and_ type should be the same. It's not: `new Number()` is not a number, it's an **object**. Both return `false.`
+Akan tetapi, saat kita menggunakan operator `===`, nilai dan tipe harus sama. `new Number()` bukan merupakan sebuah number, itu merupakan sebuah **object**. Keduanya akan mengembalikan `false.`
 
 </p>
 </details>
