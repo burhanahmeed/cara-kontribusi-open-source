@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="60" src="https://img.icons8.com/color/344/javascript.png"> 
+  <img height="60" src="https://img.icons8.com/color/344/javascript.png">
   <h1>Pertanyaan JavaScript</h1>
 
 ---
@@ -684,16 +684,16 @@ const sum = eval('10*10+5');
 
 ---
 
-###### 22. How long is cool_secret accessible?
+###### 22. Berapa lama cool_secret dapat diakses?
 
 ```javascript
 sessionStorage.setItem('cool_secret', 123);
 ```
 
-- A: Forever, the data doesn't get lost.
-- B: When the user closes the tab.
-- C: When the user closes the entire browser, not only the tab.
-- D: When the user shuts off their computer.
+- A: Selamanya, data tidak akan hilang.
+- B: Saat pengguna menutup tab.
+- C: Saat pengguna menutup seluruh browser, tidak hanya tab.
+- D: Saat pengguna mematikan komputer mereka.
 
 <details><summary><b>Jawaban</b></summary>
 <p>
@@ -2049,7 +2049,7 @@ On the fourth call, we again don't return from the callback function. The accumu
 
 </p>
 </details>
-  
+
 ---
 
 ###### 66. With which constructor can we successfully extend the `Dog` class?
