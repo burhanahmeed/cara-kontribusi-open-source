@@ -59,7 +59,7 @@ TADA!!!
 
 
 ## Etika Berkontribusi
-[Buka disini](https://docs.google.com/presentation/d/1oyysubuOgsK3361W00eKLowSH3JWSfcq2j_zqTHHCCU/edit#slide=id.g9e4704e8d8_0_119)
+[Buka disini](https://speakerdeck.com/burhanahmeed/berkontribusi-ke-open-source)
 
 ## Buat Issue atau berkomentar di suatu Issue
 <img height="90" src="./aset/cari-issue.png"> 
