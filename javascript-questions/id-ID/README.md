@@ -120,21 +120,21 @@ console.log(shape.diameter());
 console.log(shape.perimeter());
 ```
 
-- A: `20` and `62.83185307179586`
-- B: `20` and `NaN`
-- C: `20` and `63`
-- D: `NaN` and `63`
+- A: `20` dan `62.83185307179586`
+- B: `20` dan `NaN`
+- C: `20` dan `63`
+- D: `NaN` dan `63`
 
 <details><summary><b>Jawaban</b></summary>
 <p>
 
 #### Jawaban: B
 
-Note that the value of `diameter` is a regular function, whereas the value of `perimeter` is an arrow function.
+Perhatikan bahwa nilai dari _diameter_ adalah _regular function_, sedangkan nilai dari _perimeter_ merupakan _arrow function_.
 
-With arrow functions, the `this` keyword refers to its current surrounding scope, unlike regular functions! This means that when we call `perimeter`, it doesn't refer to the shape object, but to its surrounding scope (window for example).
+Dengan _arrow functions_, kata kunci _this_ mengacu pada cakupan sekitarnya saat ini, tidak seperti _regular functions!_ ni berarti bahwa ketika kita memanggil _perimeter_,  itu tidak mengacu pada objek bentuk, tetapi pada lingkup sekitarnya (misalnya jendela).
 
-There is no value `radius` on that object, which returns `undefined`.
+Tidak ada nilai _radius_ pada objek itu, yang mengembalikan `undefined`.
 
 </p>
 </details>
