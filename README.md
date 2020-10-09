@@ -75,6 +75,13 @@ git checkout -b <NAMA BRANCH>
 git checkout -b js-question-translate-13
 ```
 
+__Glosarium__
+
+https://github.com/vuejs-id/docs/blob/master/GLOSARIUM.md
+
+https://github.com/reactjs/id.reactjs.org/wiki/Glosarium
+
+
 ## Membuat sebuah Pull Requests (PR)
 Anda dapat menuju halaman repositori yang telah Anda fork.
 ```
