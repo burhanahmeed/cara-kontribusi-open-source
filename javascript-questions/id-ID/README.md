@@ -661,7 +661,7 @@ With `"use strict"`, you can make sure that you don't accidentally declare globa
 
 ---
 
-###### 21. What's value of `sum`?
+###### 21. Berapa nilai dari `sum`?
 
 ```javascript
 const sum = eval('10*10+5');
@@ -677,7 +677,7 @@ const sum = eval('10*10+5');
 
 #### Jawaban: A
 
-`eval` evaluates codes that's passed as a string. If it's an expression, like in this case, it evaluates the expression. The expression is `10 * 10 + 5`. This returns the number `105`.
+`eval` Dengan fungsi eval ini, akan mengevaluasi kode yang diteruskan sebagai string. Jika itu adalah sebuah ekspresi, seperti dalam kasus ini, maka mengevaluasi ekspresi tersebut. Ekspresinya itu `10 * 10 + 5`. yang akan mengembalikan angka `105`.
 
 </p>
 </details>
