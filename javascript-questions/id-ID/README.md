@@ -428,9 +428,9 @@ console.log(sarah);
 
 #### Jawaban: A
 
-For `sarah`, we didn't use the `new` keyword. When using `new`, it refers to the new empty object we create. However, if you don't add `new` it refers to the **global object**!
+Untuk `sarah`, kami tidak menggunakan `new` sebagai kata kunci. Saat menggunakan `new`, tu mengacu pada objek kosong baru yang kita buat. Namun, jika Anda tidak menambahkan `new` itu mengacu pada **global object**!
 
-We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smith"`. What we actually did, is defining `global.firstName = 'Sarah'` and `global.lastName = 'Smith'`. `sarah` itself is left `undefined`, since we don't return a value from the `Person` function.
+Kami mengatakan itu `this.firstName` sama `"Sarah"` dan `this.lastName` sama `"Smith"`. Apa yang sebenarnya kami lakukan, sedang mendefinisikan `global.firstName = 'Sarah'` dan `global.lastName = 'Smith'`. `sarah` sendiri tersisa `undefined`, karena kami tidak mengembalikan nilai dari `Person` function.
 
 </p>
 </details>
