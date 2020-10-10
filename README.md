@@ -1,5 +1,10 @@
-# SurabayaJS Edisi Hacktoberfest
+# SurabayaJS Edisi Hacktoberfest (Ended)
 ---
+
+
+Repositori asli Javascript Question: https://github.com/lydiahallie/javascript-questions
+---
+
 
 Silahkan mendaftar ke situs [Hacktoberfest](https://hacktoberfest.digitalocean.com) jika belum mendaftar.
 
